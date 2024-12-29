@@ -3,6 +3,7 @@ import ProjectItem from "./ProjectItem";
 function ProjectGallery() {
     const projectList = [{ name: "Project1", desc: "lorem" }, { name: "project1", desc: "ola leo" }, { name: "project1", desc: "ola leo" }, { name: "project1", desc: "ola leo" }]
     const projectsMap = projectList.map(x => <ProjectItem projectTitle={x.name} description={x.desc}></ProjectItem>)
+    
     return (
         <>
             <div className="my-3">
