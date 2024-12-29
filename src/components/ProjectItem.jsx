@@ -1,5 +1,6 @@
 function ProjectItem({ projectTitle, description }) {
-    let imgPath = `./src/assets/img/${projectTitle}-coverImage.png`;
+    let imgTitle = projectTitle.toLowerCase();
+    let imgPath = `./src/assets/img/${imgTitle}-coverImage.png`;
     return (
         <>
             <div className="w-full h-full">

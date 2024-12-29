@@ -6,6 +6,7 @@ import Intro from './components/Intro'
 import About from './components/About'
 import ContactList from './components/ContactList'
 import ProjectGallery from './components/ProjectGallery'
+import Footer from './components/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -25,6 +26,7 @@ function App() {
         <Intro></Intro>
         <About></About>
         <ProjectGallery></ProjectGallery>
+        <Footer></Footer>
       </div>
 
     </>
