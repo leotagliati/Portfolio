@@ -1,7 +1,9 @@
 function Intro(){
     return (
         <>
-            <h1>That's an Intro!</h1>
+        <div className="my-10">
+            <h1 className="text-7xl text-center ">Portfolio</h1>
+        </div>
         </>
     );
 }

@@ -1,9 +1,9 @@
 function About(){
     return (
         <>
-            <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
+            <div className="my-10 grid gap-4 grid-cols-1 md:grid-cols-2">
                 <div className="p-4 w-full bg-red-500">
-                    <img src="src\assets\img\project1Image.png" alt="" />
+                    <img className= "w-full " src="src\assets\img\project1Image.png" alt="" />
                 </div>
                 <div>
                     <h6>Hello, I'm Leo</h6>
