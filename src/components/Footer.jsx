@@ -1,8 +1,8 @@
 function Footer() {
-
+    let actualYear =  Date().getFullYear
     return (
         <>
-            <p>&copy; {new Date().getFullYear} My portfolio</p>
+            <p>&copy; {actualYear} My portfolio</p>
         </>
     );
 }
