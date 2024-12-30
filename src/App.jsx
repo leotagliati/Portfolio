@@ -1,12 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Intro from './components/Intro'
-import About from './components/About'
-import ContactList from './components/ContactList'
-import ProjectGallery from './components/ProjectGallery'
-import Footer from './components/Footer'
+import { Route, Routes } from 'react-router-dom'
+import Home from './Pages/Home'
+import Page1 from './Pages/Page1'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -21,12 +17,12 @@ function App() {
   */
   return (
     <>
-      <div className='px-12'>
-        <ContactList></ContactList>
-        <Intro></Intro>
-        <About></About>
-        <ProjectGallery></ProjectGallery>
-        <Footer></Footer>
+      <div>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/page1' element={<Page1/>} />
+
+        </Routes>
       </div>
 
     </>

@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
+
 function ProjectItem({ projectTitle, description }) {
     let imgTitle = projectTitle.toLowerCase();
     let imgPath = `./src/assets/img/${imgTitle}-coverImage.png`;
     return (
         <>
+        <Link to='/page1'>
             <div className="w-full h-full">
                 <div className="bg-blue-500 relative">
                     <img src={imgPath} alt="" />
@@ -13,6 +16,7 @@ function ProjectItem({ projectTitle, description }) {
                 </div>
 
             </div>
+        </Link>
         </>
     );
 
