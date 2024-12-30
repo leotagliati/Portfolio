@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 function ProjectItem({ projectTitle, description }) {
     let imgTitle = projectTitle.toLowerCase();
     let imgPath = `./src/assets/img/${imgTitle}-coverImage.png`;
+    let pagePath = `/${imgTitle}`;
     return (
         <>
-        <Link to='/page1'>
+        <Link to={pagePath}>
             <div className="w-full h-full">
                 <div className="bg-blue-500 relative">
                     <img src={imgPath} alt="" />
