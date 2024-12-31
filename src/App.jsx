@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
-import Page1 from './Pages/Page1'
+import Project1Page from './Pages/Project1Page'
+import Project2Page from './Pages/Project2Page'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,7 +21,8 @@ function App() {
       <div>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/page1' element={<Page1/>} />
+          <Route path='/sword-of-obsessia' element={<Project1Page/>} />
+          <Route path='/project2' element={<Project2Page/>} />
 
         </Routes>
       </div>

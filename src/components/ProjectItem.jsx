@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-function ProjectItem({ projectTitle, description }) {
+function ProjectItem({ projectTitle, description , projectId}) {
     let imgTitle = projectTitle.toLowerCase();
-    let imgPath = `./src/assets/img/${imgTitle}-coverImage.png`;
-    let pagePath = `/${imgTitle}`;
+    let imgPath = `./src/assets/img/${projectId}-coverImage.png`;
+    let pagePath = `/${projectId}`;
     return (
         <>
         <Link to={pagePath}>

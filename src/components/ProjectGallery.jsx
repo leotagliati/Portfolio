@@ -2,7 +2,7 @@ import ProjectItem from "./ProjectItem";
 
 function ProjectGallery() {
     const projectList = [
-        { name: "Project1", desc: "lorem" },
+        { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia"},
         { name: "project2", desc: "ola leo" },
         { name: "project3", desc: "ola leo" },
         { name: "project4", desc: "ola leo" },
@@ -13,6 +13,7 @@ function ProjectGallery() {
             key={index} // Adicione uma `key` única para cada item
             projectTitle={x.name}
             description={x.desc}
+            projectId={x.id}
         />
     ));
 
