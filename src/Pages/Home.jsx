@@ -7,13 +7,24 @@ import WhatIDo from "../components/WhatIDo";
 
 function Home() {
     return (
-        <div className='px-12 bg-gradient-to-b  from-purple-leo to-dark-purple-leo'>
-            <ContactList></ContactList>
-            <Intro></Intro>
-            <About></About>
-            <WhatIDo></WhatIDo>
-            <ProjectGallery></ProjectGallery>
-            <Footer></Footer>
+        <div className="bg- relative">
+            <img src="src\assets\img\Parallax\Parallax1.png" alt="" className="w-full absolute"/>
+            <img src="src\assets\img\Parallax\Parallax2.png" alt="" className="w-full absolute"/>
+            <img src="src\assets\img\Parallax\Parallax3.png" alt="" className="w-full absolute translate-y-52"/>
+            <img src="src\assets\img\Parallax\Parallax4.png" alt="" className="w-full absolute translate-y-64"/>
+            <img src="src\assets\img\Parallax\Parallax5.png" alt="" className="w-full absolute translate-y-96"/>
+
+            
+            
+            <div className='px-12 absolute'>
+                <ContactList></ContactList>
+                <Intro></Intro>
+                <About></About>
+                <WhatIDo></WhatIDo>
+                <ProjectGallery></ProjectGallery>
+                <Footer></Footer>
+            </div>
+
         </div>
     );
 }
