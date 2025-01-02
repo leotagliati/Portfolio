@@ -1,10 +1,10 @@
 function ContactIcon({ link, iconName }) {
-    let path = `./src/assets/img/${iconName}`;
+    let path = `./src/assets/img/${iconName}.png`;
 
     return (
         <>
             <a href={link}>
-                <img className="p-5 bg-red-600" src={path} alt="" />
+                <img className="h-16 w-16 bg-red-600" src={path} alt="" />
             </a>
         </>
     );
