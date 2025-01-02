@@ -3,6 +3,7 @@ import ContactList from "../components/ContactList";
 import Footer from "../components/Footer";
 import Intro from "../components/Intro";
 import ProjectGallery from "../components/ProjectGallery";
+import WhatIDo from "../components/WhatIDo";
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <ContactList></ContactList>
             <Intro></Intro>
             <About></About>
+            <WhatIDo></WhatIDo>
             <ProjectGallery></ProjectGallery>
             <Footer></Footer>
         </div>
