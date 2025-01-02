@@ -3,9 +3,9 @@ import ProjectItem from "./ProjectItem";
 function ProjectGallery() {
     const projectList = [
         { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia"},
-        { name: "project2", desc: "ola leo" },
-        { name: "project3", desc: "ola leo" },
-        { name: "project4", desc: "ola leo" },
+        { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia"},
+        { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia"},
+        { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia" },
     ];
 
     const projectsMap = projectList.map((x, index) => (
@@ -19,7 +19,7 @@ function ProjectGallery() {
 
     return (
         <div className="my-3">
-            <h1 className="my-2 text-5xl">Projects</h1>
+            <h1 className="my-5 text-5xl font-pixelify text-cream-leo underline underline-offset-8 decoration-cream-leo decoration-4 ">Projects</h1>
             <div className="grid gap-4 grid-cols-1 md:grid-cols-3">
                 {projectsMap}
             </div>

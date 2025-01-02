@@ -6,7 +6,7 @@ import ProjectGallery from "../components/ProjectGallery";
 
 function Home() {
     return (
-        <div className='px-12'>
+        <div className='px-12 bg-gradient-to-b  from-purple-leo to-dark-purple-leo'>
             <ContactList></ContactList>
             <Intro></Intro>
             <About></About>

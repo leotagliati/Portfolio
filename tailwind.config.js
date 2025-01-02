@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'cream-leo': '#fdf0d5',
+        'light-purple-leo': '#C8ACD6',
+        'purple-leo': '#433D8B',
+        'navy-purple-leo': '#2E236C',
+        'dark-purple-leo': '#17153B'
+
+      },
+      fontFamily: {
+        pixelify: ['"Pixelify Sans"', 'serif']
+      }
+    },
   },
   plugins: [],
 }

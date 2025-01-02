@@ -1,13 +1,13 @@
-function About(){
+function About() {
     return (
         <>
-            <div className="bg-slate-700 my-10 grid gap-4 grid-cols-1 md:grid-cols-2">
-                <div className="p-4 w-full bg-red-500">
-                    <img className= "w-full " src="src\assets\img\project1-coverImage.png" alt="" />
+            <div className="bg-purple-leo my-10 grid gap-4 grid-cols-1  md:grid-cols-2">
+                <div className="p-4 w-full">
+                    <img className="w-full " src="src\assets\img\profileImage.png" alt="" />
                 </div>
-                <div className= "p-3">
-                    <h6 className=" bg-green-400 h-14 text-4xl">Hello, I'm Leo</h6>
-                    <p className="my-3 bg-purple-500 ">
+                <div className="p-3">
+                    <h6 className="mt-12 mr-3 text-cream-leo  h-14 text-5xl font-pixelify">Hello, I'm Leo!</h6>
+                    <p className="my-5 mr-3 text-cream-leo  font-pixelify text-3xl">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur adipisci ducimus iusto doloribus commodi amet quod odio veniam cupiditate suscipit doloremque architecto obcaecati modi assumenda, saepe culpa asperiores exercitationem aliquid!Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugiat ad consequuntur sed, harum veniam magni qui, est incidunt adipisci nobis tempora, quasi dolore repellat vel distinctio accusantium totam voluptatem?
                     </p>
                 </div>

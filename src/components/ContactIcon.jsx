@@ -4,7 +4,7 @@ function ContactIcon({ link, iconName }) {
     return (
         <>
             <a href={link}>
-                <img className="h-16 w-16 bg-red-600" src={path} alt="" />
+                <img className="h-16 w-16" src={path} alt="" />
             </a>
         </>
     );

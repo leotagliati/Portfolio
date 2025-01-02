@@ -12,7 +12,7 @@ function ContactList() {
         ></ContactIcon>)
     return (
         <>
-            <div className="bg-purple-500 flex gap-3 justify-center content-center">
+            <div className=" flex gap-3 justify-center content-center">
                 {contactsMap}
             </div>
         </>
