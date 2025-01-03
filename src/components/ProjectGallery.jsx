@@ -2,7 +2,7 @@ import ProjectItem from "./ProjectItem";
 
 function ProjectGallery() {
     const projectList = [
-        { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia"},
+        { name: "Sword of Obsessia", desc: "Um jogo sobre a épica jornada do cavaleiro com uma espada amaldiçoada. Atravesse a masmorra e supere seus desafios.≈" , id:"sword-of-obsessia"},
         { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia"},
         { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia"},
         { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia" },
