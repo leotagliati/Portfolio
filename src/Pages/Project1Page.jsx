@@ -12,7 +12,7 @@ function Project1Page() {
                 <ProjectTitle name="Sword of Obsessia" id="sword-of-obsessia"></ProjectTitle>
                 <ProjectPageDescription></ProjectPageDescription>
             </div>
-            {/* <ImageGallery></ImageGallery> */}
+            <ImageGallery></ImageGallery>
         </>
     );
 }
