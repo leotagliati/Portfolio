@@ -1,8 +1,8 @@
 function About() {
     return (
         <>
-            <div className="bg-purple-leo mt-96 my-10 grid gap-4 grid-rows-2">
-                <div className="flex  justify-center">
+            <div className=" mt-96 my-10 grid gap-4 grid-rows-2">
+                <div className="flex justify-center">
                     <img className="mt-12 h-48" src="src\assets\img\profileImage.png" alt="" />
                 </div>
                 <div className="p-3">

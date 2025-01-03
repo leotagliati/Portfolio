@@ -9,21 +9,23 @@ import WhatIDo from "../components/WhatIDo";
 function Home() {
     return (
         <>
-            <Parallax></Parallax>
+            <div className="relative">
+                <div className="absolute inset-0 z-0">
+                    <Parallax></Parallax>
+                </div>
 
-            <div className="h-full bg-mountain-purple z-10">
+                <div className="h-full bg-mountain-purple ">
 
-                <div className='px-12 h-full bg-mountain-purple'>
-                    <ContactList></ContactList>
-                    <Intro></Intro>
-                    <div className="">
+                    <div className='px-12 h-full relative z-10 '>
+                        <ContactList></ContactList>
+                        <Intro></Intro>
                         <About></About>
                         <WhatIDo></WhatIDo>
                         <ProjectGallery></ProjectGallery>
                         <Footer></Footer>
                     </div>
-                </div>
 
+                </div>
             </div>
         </>
     );
