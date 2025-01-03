@@ -11,7 +11,8 @@ export default {
         'light-purple-leo': '#C8ACD6',
         'purple-leo': '#433D8B',
         'navy-purple-leo': '#2E236C',
-        'dark-purple-leo': '#17153B'
+        'dark-purple-leo': '#17153B',
+        'mountain-purple': '#210846'
 
       },
       fontFamily: {
