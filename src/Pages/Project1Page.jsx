@@ -6,16 +6,13 @@ import ProjectTitle from "../components/ProjectPage/ProjectTitle";
 function Project1Page() {
     return (
         <>
-            <div className="bg-purple-300 w-full h-full relative">
+            <div className="bg-purple-300 w-full h-full ">
 
                 <MenuBar></MenuBar>
-                <div className="">
-                    <ProjectTitle name="Sword of Obsessia" id="sword-of-obsessia"></ProjectTitle>
-                    <ProjectPageDescription></ProjectPageDescription>
-                </div>
-
+                <ProjectTitle name="Sword of Obsessia" id="sword-of-obsessia"></ProjectTitle>
+                {/* <ProjectPageDescription></ProjectPageDescription> */}
             </div>
-            <ImageGallery></ImageGallery>
+            {/* <ImageGallery></ImageGallery> */}
         </>
     );
 }
