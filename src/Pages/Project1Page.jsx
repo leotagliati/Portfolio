@@ -7,10 +7,10 @@ function Project1Page() {
     return (
         <>
             <div className="bg-purple-300 w-full h-full ">
-
+                <img src="" alt="" />
                 <MenuBar></MenuBar>
                 <ProjectTitle name="Sword of Obsessia" id="sword-of-obsessia"></ProjectTitle>
-                {/* <ProjectPageDescription></ProjectPageDescription> */}
+                <ProjectPageDescription></ProjectPageDescription>
             </div>
             {/* <ImageGallery></ImageGallery> */}
         </>
