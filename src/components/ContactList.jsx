@@ -2,7 +2,7 @@ import ContactIcon from "./ContactIcon";
 
 function ContactList() {
     const contactsList = [{ name: "github", link: "https://github.com/leotagliati" }, { name: "instagram", link: "https://www.instagram.com/leonaart_/" },
-    { name: "linkedIn", link: "https://www.linkedin.com/in/leotagliati/" }
+    { name: "linkedin", link: "https://www.linkedin.com/in/leotagliati/" }
     ]
     const contactsMap = contactsList.map((x, index) =>
         <ContactIcon

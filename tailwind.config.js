@@ -16,7 +16,8 @@ export default {
 
       },
       fontFamily: {
-        pixelify: ['"Pixelify Sans"', 'serif']
+        pixelify: ['"Pixelify Sans"', 'serif'],
+        pacifico: ['"Pacifico"', 'serif']
       }
     },
   },
