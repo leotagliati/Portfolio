@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import ImageGallery from "../components/ProjectPage/ImageGallery";
 import MenuBar from "../components/ProjectPage/MenuBar";
 import ProjectPageDescription from "../components/ProjectPage/ProjectPageDescription";
@@ -32,6 +33,9 @@ function Project1Page() {
                 <ProjectPageDescription members={membersList}></ProjectPageDescription>
             </div>
             <ImageGallery></ImageGallery>
+            <div className="p-4 bg-dark-purple-leo w-full">
+                <Footer></Footer>
+            </div>
         </>
     );
 }
