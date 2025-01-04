@@ -5,31 +5,31 @@ import ProjectTitle from "../components/ProjectPage/ProjectTitle";
 import { useRef, useEffect } from "react";
 
 function Project1Page() {
-        const background = useRef(null);
-    
-        useEffect(() => {
-            const handleScroll = () => {
-                const value = window.scrollY;
-    
-                if (background.current) {
-                    background.current.style.top = value * 0.4 + "px";
-                }
-            };
-    
-            window.addEventListener("scroll", handleScroll);
-            return () => window.removeEventListener("scroll", handleScroll);
-        }, []);
+    const background = useRef(null);
 
-        const membersList = [{name:"Leo", id:"profileImage"},
-            {name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"}
-        ];
+    useEffect(() => {
+        const handleScroll = () => {
+            const value = window.scrollY;
+
+            if (background.current) {
+                background.current.style.top = value * 0.4 + "px";
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    const membersList = [{ name: "Leo", id: "profileImage" },
+    { name: "Thiago", id: "thiago" }, { name: "Lucas Duez", id: "lucas-duez" }, { name: "Laura Daud", id: "laura-daud" }
+    ];
     return (
         <>
-            <img id="background"src="src\assets\img\sword-of-obsessia-background.png" alt="" ref={background}className="w-full absolute z-0" />
+            <img id="background" src="src\assets\img\sword-of-obsessia-background.png" alt="" ref={background} className="w-full absolute z-0" />
             <div className="w-full h-full relative z-1">
                 <MenuBar></MenuBar>
                 <ProjectTitle name="Sword of Obsessia" id="sword-of-obsessia"></ProjectTitle>
-                <ProjectPageDescription members= {membersList}></ProjectPageDescription>
+                <ProjectPageDescription members={membersList}></ProjectPageDescription>
             </div>
             <ImageGallery></ImageGallery>
         </>

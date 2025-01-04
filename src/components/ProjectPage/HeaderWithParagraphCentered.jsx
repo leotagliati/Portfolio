@@ -7,7 +7,7 @@ function HeaderWithParagraph({ h1, p }) {
                 </div>
             </div>
             <div className="mt-3 ">
-                <h2 className="text-3xl text-clay-navy font-jetbrains">{p}</h2>
+                <h2 className="text-left text-3xl text-clay-navy font-jetbrains">{p}</h2>
             </div>
         </div>
     );
