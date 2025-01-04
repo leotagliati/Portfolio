@@ -1,3 +1,4 @@
+import HeaderWithList from "./HeaderWithListCentered";
 import HeaderWithParagraph from "./HeaderWithParagraphCentered";
 import TeamMembers from "./TeamMembers";
 
@@ -9,9 +10,11 @@ function ProjectPageDescription({ members }) {
                 <div className="p-8 grid grid-cols-1 mb-12">
                     <HeaderWithParagraph h1="Sinopse" p="Em Sword of Obsessia, você embarca em uma jornada épica como um cavaleiro com uma espada amaldiçoada. Atravessando masmorras, você enfrentará seus medos e jogará dados valendo seu destino!"></HeaderWithParagraph>
 
-                    <HeaderWithParagraph h1="Responsabilidades" p="Durante o desenvolvimento, assumi diversas responsabilidades fundamentais para o sucesso do projeto. Atuei como desenvolvedor de sistemas de gameplay, implementando mecânicas dinâmicas, como a integração de cartas de tarô e a lógica de combate inspirada no tema de cavaleiros e masmorras. "></HeaderWithParagraph>
+                    <HeaderWithList h1="Responsabilidades" p="Durante o desenvolvimento, assumi diversas responsabilidades fundamentais:" list="
+                    Desenvolvi sistemas de combate interativos, buffs e debuffs dinâmicos, e a masmorra, focando na otimização para uma experiência fluida.
+                    *Participei da criação dos personagens e animações detalhadas, criando uma estética sombria e uma interface de usuário intuitiva e funcional.
+                    *Coordenei a equipe, integrei assets e participei ativamente de testes e ajustes, garantindo uma experiência coesa e refinada."></HeaderWithList>
 
-                    {/* <TeamMembers members={members}></TeamMembers> */}
                 </div>
                 <div className="p-8 flex flex-wrap justify-center items-center">
                     <iframe

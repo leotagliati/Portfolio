@@ -1,4 +1,6 @@
-function HeaderWithList({ h1, p }) {
+import UnordList from "./UnordList";
+
+function HeaderWithList({ h1, p, list}) {
     return (
         <div className="table h-96">
             <div className="table-row ">
@@ -7,7 +9,8 @@ function HeaderWithList({ h1, p }) {
                 </div>
             </div>
             <div className="table-row">
-                <h2 className="text-3xl text-clay-navy">{p}</h2>
+                <h2 className="mt-3 text-3xl line-clamp-3 text-clay-navy font-jetbrains">{p}</h2>
+                <UnordList itemsString={list}></UnordList>
             </div>
         </div>
     );
