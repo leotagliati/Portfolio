@@ -5,7 +5,7 @@ function ProjectPageDescription({ members }) {
 
     return (
         <>
-            <div className="bg-dark-gray-navy p-8 grid grid-cols-2 gap-12">
+            <div className="bg-dark-gray-navy p-8 grid grid-cols-2 gap-12 rounded-3xl">
                 <div className="p-8 grid grid-cols-1 ">
                     <HeaderWithParagraph h1="Sinopse" p="In Sword of Obsessia, you embark on an epic journey as a knight with a cursed sword. Traverse through the dungeon, confront your fears and rise!"></HeaderWithParagraph>
 

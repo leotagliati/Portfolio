@@ -1,12 +1,21 @@
+import HeaderWithParagraph from "./HeaderWithParagraphCentered";
+import TeamMembers from "./TeamMembers";
+
 function ImageGallery() {
     return (
-        <div className=" bg-blue-500 absolute w-full">
-            <h1 className="text-center text-6xl">Showcase</h1>
-            <div className="grid grid-cols-2 m-12 gap-12 justify-items-center bg-purple-500">
-                <img src="src/assets/img/alternativePhoto.gif" alt="" className="p-5 bg-white"/>
-                <img src="src/assets/img/alternativePhoto.gif" alt="" className="p-5 bg-white"/>
-                <img src="src/assets/img/alternativePhoto.gif" alt="" className="p-5 bg-white"/>
-                <img src="src/assets/img/alternativePhoto.gif" alt="" className="p-5 bg-white"/>
+        <div className=" bg-dark-purple-leo w-full pb-12">
+            <div className="pb-1 pt-8 border-b-4 mx-96">
+                <h1 className="text-center text-6xl text-clay-navy font-bold font-inter">Showcase</h1>
+            </div>
+            <div className="">
+                <div className="py-12 grid grid-cols-2 px-12">
+                    <img src="as" alt="" className="bg-green-300 h-96 w-11/12 border-4 rounded-xl  " />
+                    <img src="as" alt="" className="bg-green-300 h-96 w-full border-4 rounded-xl " />
+                </div>
+                <div className="flex flex-row gap-16 px-12">
+                    <img src="as" alt="" className="bg-green-300 h-96 w-8/12 border-4 rounded-xl  " />
+                    <img src="as" alt="" className="bg-green-300 h-96 w-full border-4 rounded-xl " />
+                </div>
             </div>
         </div>
     );
