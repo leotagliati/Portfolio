@@ -11,7 +11,7 @@ function TecnologyItem({ title, imgNames, description }) {
                 </div>
                 <div className=" w-full h-32  left-0 bottom-0 right-0">
                     <h2 className="mx-1 mt-2 text-3xl text-cream-leo font-pixelify ">{title}</h2>
-                    <p className="mx-1 mt-1 line-clamp-3 text-cream-leo font-pixelify">{description}</p>
+                    <p className="mx-1 mt-1 text-1xl line-clamp-3 text-cream-leo font-pixelify">{description}</p>
                 </div>
             </div>
         </div>
