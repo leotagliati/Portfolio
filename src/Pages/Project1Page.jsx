@@ -19,13 +19,17 @@ function Project1Page() {
             window.addEventListener("scroll", handleScroll);
             return () => window.removeEventListener("scroll", handleScroll);
         }, []);
+
+        const membersList = [{name:"leo", id:"leo"},
+            {name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"}
+        ];
     return (
         <>
             <img id="background"src="src\assets\img\sword-of-obsessia-background.png" alt="" ref={background}className="w-full absolute z-0" />
             <div className="w-full h-full relative z-1">
                 <MenuBar></MenuBar>
                 <ProjectTitle name="Sword of Obsessia" id="sword-of-obsessia"></ProjectTitle>
-                <ProjectPageDescription></ProjectPageDescription>
+                <ProjectPageDescription members= {membersList}></ProjectPageDescription>
             </div>
             <ImageGallery></ImageGallery>
         </>

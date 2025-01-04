@@ -23,7 +23,11 @@ export default {
       },
       fontFamily: {
         pixelify: ['"Pixelify Sans"', 'serif'],
-        pacifico: ['"Pacifico"', 'serif']
+        pacifico: ['"Pacifico"', 'static'],
+        jetbrains: ['"JetBrains Mono"', 'serif'],
+        lato: ['"Lato"','static'],
+        inter: ['"Inter"','serif']
+
       }
     },
   },
