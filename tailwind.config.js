@@ -12,7 +12,13 @@ export default {
         'purple-leo': '#433D8B',
         'navy-purple-leo': '#2E236C',
         'dark-purple-leo': '#17153B',
-        'mountain-purple': '#210846'
+        'mountain-purple': '#210846',
+
+        'black-navy': '#161A30',
+        'dark-gray-navy': '#31304D',
+        'light-gray-navy': '#B6BBC4',
+        'clay-navy': '#F0ECE5'
+
 
       },
       fontFamily: {
