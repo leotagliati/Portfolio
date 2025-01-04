@@ -20,7 +20,7 @@ function Project1Page() {
             return () => window.removeEventListener("scroll", handleScroll);
         }, []);
 
-        const membersList = [{name:"leo", id:"leo"},
+        const membersList = [{name:"Leo", id:"profileImage"},
             {name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"},{name:"leo", id:"leo"}
         ];
     return (

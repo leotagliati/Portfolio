@@ -12,7 +12,7 @@ function TeamMembers({ members }) {
         <div className="p-8 mx-2 grid grid-cols-1 justify-center">
             <div className="">
                 <div className="flex justify-center pb-2 border-b-2 mx-32">
-                    <h2 className=" text-4xl text-clay-navy font-bold">Team Members</h2>
+                    <h2 className=" text-4xl text-clay-navy font-bold font-jetbrains">Team Members</h2>
                 </div>
             </div>
             <div className="flex justify-center gap-x-12 flex-wrap">
