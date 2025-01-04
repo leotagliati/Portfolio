@@ -12,7 +12,7 @@ function Project1Page() {
                 const value = window.scrollY;
     
                 if (background.current) {
-                    background.current.style.top = value * 0.2 + "px";
+                    background.current.style.top = value * 0.4 + "px";
                 }
             };
     
