@@ -1,5 +1,5 @@
 function ContactIcon({ link, iconName }) {
-    let path = `./src/assets/img/${iconName}-icon.png`;
+    let path = `.assets/img/${iconName}-icon.png`;
 
     return (
         <>
