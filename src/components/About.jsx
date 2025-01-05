@@ -12,7 +12,7 @@ function About() {
                     >
                         {/* Imagem com tamanho controlado */}
                         <img
-                            src={"src/assets/img/profileImage.png"}
+                            src={"img/profileImage.png"}
                             alt=""
                             className="rounded-full h-52 w-52 object-cover"
                         />

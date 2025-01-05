@@ -1,5 +1,5 @@
 function TecnologyItem({ title, imgNames, description }) {
-    let path = `src/assets/img/`;
+    let path = `img/`;
     return (
 
         <div className="w-full h-full">

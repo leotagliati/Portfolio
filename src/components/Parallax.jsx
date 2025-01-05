@@ -35,31 +35,31 @@ function Parallax() {
     return (
         <div className="relative overflow-hidden h-screen">
             <img
-                src="src/assets/img/Parallax/Parallax1.png"
+                src="img/Parallax/Parallax1.png"
                 alt=""
                 ref={starsRef}
                 className="w-full absolute"
             />
             <img
-                src="src/assets/img/Parallax/Parallax2.png"
+                src="img/Parallax/Parallax2.png"
                 alt=""
                 ref={smoke1Ref}
                 className="w-full absolute"
             />
             <img
-                src="src/assets/img/Parallax/Parallax3.png"
+                src="img/Parallax/Parallax3.png"
                 alt=""
                 ref={smoke2Ref}
                 className="w-full absolute translate-y-48"
             />
             <img
-                src="src/assets/img/Parallax/Parallax4.png"
+                src="img/Parallax/Parallax4.png"
                 alt=""
                 ref={smoke3Ref}
                 className="w-full absolute translate-y-64"
             />
             <img
-                src="src/assets/img/Parallax/Parallax5.png"
+                src="img/Parallax/Parallax5.png"
                 alt=""
                 ref={mountainsRef}
                 className="w-full absolute translate-y-96"

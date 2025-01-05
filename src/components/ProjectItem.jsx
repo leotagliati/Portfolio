@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function ProjectItem({ projectTitle, description , projectId}) {
     let imgTitle = projectTitle.toLowerCase();
-    let imgPath = `./src/assets/img/${projectId}-coverImage.png`;
+    let imgPath = `.img/${projectId}-coverImage.png`;
     let pagePath = `/${projectId}`;
     return (
         <>

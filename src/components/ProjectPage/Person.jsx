@@ -1,5 +1,5 @@
 function Person({ name, id }) {
-    const path = `src/assets/img/${id}.png`;
+    const path = `img/${id}.png`;
     const firstName = name.split(' ')[0];
 
     return (
