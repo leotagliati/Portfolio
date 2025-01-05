@@ -20,9 +20,9 @@ function App() {
     <>
       <div>
         <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/sword-of-obsessia' element={<Project1Page/>} />
-          <Route path='/project2' element={<Project2Page/>} />
+          <Route path='/Portfolio/' element={<Home/>} />
+          <Route path='/Portfolio/sword-of-obsessia' element={<Project1Page/>} />
+          <Route path='/Portfolio/project2' element={<Project2Page/>} />
 
         </Routes>
       </div>
