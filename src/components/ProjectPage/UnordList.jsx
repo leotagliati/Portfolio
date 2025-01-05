@@ -9,7 +9,7 @@ function UnordList({ itemsString }) {
         </li>
     ));
 
-    return <ul className="list-disc pt-3 pl-6 text-2xl">{itemsMap}</ul>;
+    return <ul className="list-disc pt-3 pl-6 text-2xl font-jetbrains">{itemsMap}</ul>;
 }
 
 export default UnordList;
