@@ -2,8 +2,8 @@ import ProjectItem from "./ProjectItem";
 
 function ProjectGallery() {
     const projectList = [
-        { name: "Sword of Obsessia", desc: "Um jogo sobre a épica jornada do cavaleiro com uma espada amaldiçoada. Atravesse a masmorra e supere seus desafios.≈" , id:"sword-of-obsessia"},
-        { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia"},
+        { name: "Sword of Obsessia", desc: "Um jogo sobre a épica jornada do cavaleiro com uma espada amaldiçoada. Atravesse a masmorra e supere seus desafios." , id:"sword-of-obsessia"},
+        { name: "Medieval Character Creator", desc: "Aplicação que permite criar e personalizar personagens de forma dinâmica, com visualização em tempo real. Ideal para jogos e aplicações de role-playing, oferece diversas opções de customização para aparência, classe e vestimentas." , id:"fantasy-char-creator"},
         { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia"},
         { name: "Sword of Obsessia", desc: "lorem" , id:"sword-of-obsessia" },
     ];

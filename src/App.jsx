@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route path='/Portfolio/' element={<Home/>} />
           <Route path='/Portfolio/sword-of-obsessia' element={<Project1Page/>} />
-          <Route path='/Portfolio/project2' element={<Project2Page/>} />
+          <Route path='/Portfolio/fantasy-char-creator' element={<Project2Page/>} />
 
         </Routes>
       </div>
