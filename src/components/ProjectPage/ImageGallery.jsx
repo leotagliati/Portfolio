@@ -1,4 +1,3 @@
-import HeaderWithParagraph from "./HeaderWithParagraphCentered";
 import TeamMembers from "./TeamMembers";
 
 function ImageGallery() {
