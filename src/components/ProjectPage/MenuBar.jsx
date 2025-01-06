@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import ContactIcon from "../ContactIcon";
 
 function MenuBar() {
     return (

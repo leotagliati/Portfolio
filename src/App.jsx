@@ -3,7 +3,6 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import Project1Page from './Pages/Project1Page'
-import Project2Page from './Pages/Project2Page'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -22,7 +21,6 @@ function App() {
         <Routes>
           <Route path='/Portfolio/' element={<Home/>} />
           <Route path='/Portfolio/sword-of-obsessia' element={<Project1Page/>} />
-          <Route path='/Portfolio/fantasy-char-creator' element={<Project2Page/>} />
 
         </Routes>
       </div>

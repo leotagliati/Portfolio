@@ -4,6 +4,7 @@ import MenuBar from "../components/ProjectPage/MenuBar";
 import ProjectTitle from "../components/ProjectPage/ProjectTitle";
 import { useRef, useEffect } from "react";
 import TeamMembers from "../components/ProjectPage/TeamMembers";
+import VideoShowcase from "../components/ProjectPage/VideoShowcase";
 
 function Project1Page() {
     const background = useRef(null);
@@ -68,16 +69,11 @@ function Project1Page() {
 
 
                     <div className="p-8 flex flex-wrap justify-center items-center">
-                        <iframe
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/AM8DZEEDCwE"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            className=""
-                        ></iframe>
+                        <VideoShowcase
+                            url={"https://www.youtube.com/embed/AM8DZEEDCwE"}
+                            width={"560"}
+                            height={"315"}
+                        ></VideoShowcase>
                         <TeamMembers members={membersList}></TeamMembers>
 
                     </div>
