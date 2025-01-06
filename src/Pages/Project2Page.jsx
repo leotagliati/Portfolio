@@ -22,15 +22,13 @@ function Project2Page() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    const membersList = [{ name: "Leo", id: "profileImage" },
-    { name: "Thiago", id: "thiago" }, { name: "Lucas Duez", id: "lucas-duez" }, { name: "Laura Daud", id: "laura-daud" }
-    ];
+    const membersList = [{ name: "Leo", id: "profileImage" }];
     return (
         <>
             <img id="background" src="img/sword-of-obsessia-background.png" alt="" ref={background} className="w-full absolute z-0" />
             <div className="w-full h-full relative z-1">
                 <MenuBar></MenuBar>
-                <ProjectTitle name="Sword of Obsessia" id="sword-of-obsessia"></ProjectTitle>
+                <ProjectTitle id="medieval-character-creator"></ProjectTitle>
 
 
                 {/* Page Description */}
@@ -41,7 +39,7 @@ function Project2Page() {
                         <div className="h-96">
                             <div className="">
                                 <div className=" pb-2 border-b-2 w-fit">
-                                    <h2 className="text-4xl text-clay-navy font-bold font-jetbrains">Sinopse</h2>
+                                    <h2 className="text-4xl text-clay-navy font-bold font-jetbrains">Descrição</h2>
                                 </div>
                             </div>
                             <div className="mt-3 ">

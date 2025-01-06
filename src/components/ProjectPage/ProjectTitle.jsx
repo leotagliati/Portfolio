@@ -1,9 +1,10 @@
 function ProjectTitle({ id, studioId }) {
     let imgPathLogo = `img/${studioId}-icon.png`;
+    let imgTitlePath = `img/title-${id}.png`;
     return (
         <>
             <div className="w-1/3 border-y border-black  bg-gradient-to-b from-dark-gray-navy to-black-navy grid grid-rows-2 gap-6 p-4 justify-center">
-                <img src="img/title-sword-of-obsessia.png" alt="" className="py-8" />
+                <img src={imgTitlePath} alt={`title-${id}`} className="py-8" />
                 {studioId != null ? 
                     <div className="grid grid-cols-2 py-8 px-6">
                         <img src={imgPathLogo} alt="" className="" />
