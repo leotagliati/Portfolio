@@ -2,12 +2,18 @@ import Footer from "../components/Footer";
 import ImageGallery from "../components/ProjectPage/ImageGallery";
 import MenuBar from "../components/ProjectPage/MenuBar";
 import ProjectTitle from "../components/ProjectPage/ProjectTitle";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useLayoutEffect } from "react";
 import TeamMembers from "../components/ProjectPage/TeamMembers";
-import VideoShowcase from "../components/ProjectPage/VideoShowcase";
+import { useLocation } from "react-router-dom";
 
 function Project2Page() {
     const background = useRef(null);
+    const location = useLocation();
+    
+        // scroll to top of page after a page transition.
+        useLayoutEffect(() => {
+            document.documentElement.scrollTo({ top:0, left:0, behavior: "instant" });
+        }, [location.pathname])
 
     useEffect(() => {
         const handleScroll = () => {
