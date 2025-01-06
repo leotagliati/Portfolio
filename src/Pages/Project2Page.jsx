@@ -25,7 +25,9 @@ function Project2Page() {
     const membersList = [{ name: "Leo", id: "profileImage" }];
     return (
         <>
-            <img id="background" src="img/sword-of-obsessia-background.png" alt="" ref={background} className="w-full absolute z-0" />
+            <div className="flex justify-end">
+                <img id="background" src="img/fantasy-char-creator-background.png" alt="" ref={background} className=" absolute z-0" />
+            </div>
             <div className="w-full h-full relative z-1">
                 <MenuBar></MenuBar>
                 <ProjectTitle id="medieval-character-creator"></ProjectTitle>
@@ -43,7 +45,7 @@ function Project2Page() {
                                 </div>
                             </div>
                             <div className="mt-3 ">
-                                <h2 className="text-left text-3xl text-clay-navy font-jetbrains">Em Sword of Obsessia, você embarca em uma jornada épica como um cavaleiro com uma espada amaldiçoada. Atravessando masmorras, você enfrentará seus medos e jogará dados valendo seu destino!</h2>
+                                <h2 className="text-left text-3xl text-clay-navy font-jetbrains">Desenvolvi um projeto que permite criar e personalizar personagens de forma dinâmica, com visualização em tempo real das modificações. O sistema oferece diversas opções customizadas como aparência, classe e vestimentas, proporcionando uma experiência imersiva e intuitiva.</h2>
                             </div>
                         </div>
 
@@ -57,9 +59,9 @@ function Project2Page() {
                             <div className="table-row">
                                 <h2 className="mt-3 text-3xl line-clamp-3 text-clay-navy font-jetbrains">Durante o desenvolvimento, assumi diversas responsabilidades fundamentais:</h2>
                                 <ul className="list-disc pt-3 pl-6 text-2xl font-jetbrains">
-                                    <li className="text-clay-navy mt-3">Desenvolvi sistemas de combate interativos, buffs e debuffs dinâmicos, e a masmorra, focando na otimização para uma experiência fluida.</li>
-                                    <li className="text-clay-navy mt-3">Participei da criação dos personagens e animações detalhadas, criando uma estética sombria e uma interface de usuário intuitiva e funcional.</li>
-                                    <li className="text-clay-navy mt-3">Coordenei a equipe, integrei assets e participei ativamente de testes e ajustes, garantindo uma experiência coesa e refinada.</li>
+                                    <li className="text-clay-navy mt-3">Estruturei a arquitetura cliente-servidor, permitindo a comunicação eficiente entre cliente e servidor para autenticação e gerenciamento dinâmico de dados.</li>
+                                    <li className="text-clay-navy mt-3">Participei da criação de elementos visuais e design, garantindo uma interface atraente e intuitiva para o usuário.</li>
+                                    <li className="text-clay-navy mt-3">Modelei e implementei o banco de dados utilizando MySQL, otimizando a estrutura para suportar operações de CRUD com segurança e eficiência.</li>
                                 </ul>
                             </div>
                         </div>
@@ -67,11 +69,7 @@ function Project2Page() {
 
 
                     <div className="p-8 flex flex-wrap justify-center items-center">
-                        <VideoShowcase
-                            url={"https://www.youtube.com/embed/AM8DZEEDCwE"}
-                            width={"560"}
-                            height={"315"}
-                        ></VideoShowcase>
+                        <img src="img/fantasy-char-creator-image1.png" alt="" className="h-2/3" />
                         <TeamMembers members={membersList}></TeamMembers>
 
                     </div>
