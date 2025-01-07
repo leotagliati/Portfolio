@@ -9,7 +9,7 @@ function WhatIDo() {
                 Coloco meu esforço em criar soluções de software eficientes e inovadoras. Com expertise em design e desenvolvimento de aplicações escaláveis, trago uma combinação de criatividade e habilidades técnicas para cada projeto em que trabalho.
             </p>
 
-            <div className="my-16 grid grid-cols-3 gap-12">
+            <div className="my-16 grid md:grid-cols-3 gap-12">
                 <TecnologyItem title="Web Development" imgNames={['react', 'tailWindCSS', 'html']} description={"Desenvolvo aplicações web modernas utilizando React no front-end e Tailwind CSS para interfaces responsivas e elegantes. "}></TecnologyItem>
                 <TecnologyItem title="Unity" imgNames={['unity']} description={"Tenho experiência em desenvolvimento de jogos utilizando Unity. Desenvolvi projetos em 2D e 3D, focando em gameplay, física e narrativa interativa."}></TecnologyItem>
                 <TecnologyItem title="Backend" imgNames={["csharp",'java', 'mySQL']} description={"Desenvolvo sistemas back-end utilizando Java e C#, com integração de bancos de dados MySQL. Experiência em criar APIs e arquiteturas escaláveis."}></TecnologyItem>

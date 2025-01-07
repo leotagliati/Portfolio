@@ -16,13 +16,15 @@ function Home() {
 
                 <div className="h-full bg-mountain-purple ">
 
-                    <div className='px-12 h-full relative z-10 '>
+                    <div className=' h-full relative z-10'>
                         <ContactList></ContactList>
                         <Intro></Intro>
-                        <About></About>
-                        <WhatIDo></WhatIDo>
-                        <ProjectGallery></ProjectGallery>
-                        <Footer></Footer>
+                        <div className="px-12 bg-mountain-purple">
+                            <About></About>
+                            <WhatIDo></WhatIDo>
+                            <ProjectGallery></ProjectGallery>
+                            <Footer></Footer>
+                        </div>
                     </div>
 
                 </div>

@@ -42,7 +42,7 @@ function Project1Page() {
 
 
                 {/* Page Description */}
-                <div className="bg-dark-gray-navy p-8 grid grid-cols-2 gap-12 rounded-3xl">
+                <div className="bg-dark-gray-navy p-8 lg:grid grid-cols-2 gap-12 rounded-3xl">
                     <div className="p-8 grid grid-cols-1 mb-12">
 
                         {/* Header with paragraph centered */}
@@ -58,7 +58,7 @@ function Project1Page() {
                         </div>
 
                         {/* Header with Paragraph and UList */}
-                        <div className="table h-96">
+                        <div className="mt-12 table h-96">
                             <div className="table-row ">
                                 <div className="pb-2 border-b-2 w-fit">
                                     <h2 className="text-4xl text-clay-navy font-bold">Responsabilidades</h2>
