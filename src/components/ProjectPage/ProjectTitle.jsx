@@ -11,9 +11,9 @@ function ProjectTitle({ id, studioId }) {
                         <h1 className="text-center text-clay-navy md:text-2xl md:mt-8 h-20">Developed by <h2 className="font-extrabold">{formatStudioName(studioId)}</h2></h1>
                     </div>
                     :
-                    <div className="grid md:grid-cols-2 py-8 px-6">
-                        <img src="img/profileImage.png" alt="" className="h-32" />
-                        <h1 className="text-center text-clay-navy md:text-2xl mt-8 h-20">Developed by <h2 className="font-extrabold">Me</h2></h1>
+                    <div className="grid grid-cols-2 py-8 px-6">
+                        <img src="img/profileImage.png" alt="" className="md:h-32" />
+                        <h1 className="text-center text-clay-navy md:text-2xl md:mt-8 h-20">Developed by <h2 className="font-extrabold">Me</h2></h1>
                     </div>
                 }
             </div>

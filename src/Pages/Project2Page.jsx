@@ -40,7 +40,7 @@ function Project2Page() {
 
 
                 {/* Page Description */}
-                <div className="bg-dark-gray-navy p-8 grid grid-cols-2 gap-12 rounded-3xl">
+                <div className="bg-dark-gray-navy p-8 lg:grid grid-cols-2 gap-12 rounded-3xl">
                     <div className="p-8 grid grid-cols-1 mb-12">
 
                         {/* Header with paragraph centered */}
@@ -56,7 +56,7 @@ function Project2Page() {
                         </div>
 
                         {/* Header with Paragraph and UList */}
-                        <div className="table h-96">
+                        <div className="mt-12 table h-96">
                             <div className="table-row ">
                                 <div className="pb-2 border-b-2 w-fit">
                                     <h2 className="text-4xl text-clay-navy font-bold">Responsabilidades</h2>
@@ -75,7 +75,7 @@ function Project2Page() {
 
 
                     <div className="p-8 flex flex-wrap justify-center items-center">
-                        <img src="img/fantasy-char-creator-image1.png" alt="" className="h-2/3" />
+                        <img src="img/fantasy-char-creator-image1.png" alt="" className="md:h-2/3" />
                         <TeamMembers members={membersList}></TeamMembers>
 
                     </div>
