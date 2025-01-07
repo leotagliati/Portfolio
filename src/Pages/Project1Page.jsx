@@ -58,7 +58,7 @@ function Project1Page() {
                         </div>
 
                         {/* Header with Paragraph and UList */}
-                        <div className="table h-96">
+                        <div className="mt-12 table h-96">
                             <div className="table-row ">
                                 <div className="pb-2 border-b-2 w-fit">
                                     <h2 className="text-4xl text-clay-navy font-bold">Responsabilidades</h2>
