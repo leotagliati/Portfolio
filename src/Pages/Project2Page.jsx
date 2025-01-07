@@ -75,7 +75,7 @@ function Project2Page() {
 
 
                     <div className="p-8 flex flex-wrap justify-center items-center">
-                        <img src="img/fantasy-char-creator-image1.png" alt="" className="md:h-2/3" />
+                        <img src="img/fantasy-char-creator-image1.png" alt="" className="lg:h-2/3" />
                         <TeamMembers members={membersList}></TeamMembers>
 
                     </div>
