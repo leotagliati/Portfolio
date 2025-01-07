@@ -42,7 +42,7 @@ function Project1Page() {
 
 
                 {/* Page Description */}
-                <div className="bg-dark-gray-navy p-8 grid grid-cols-2 gap-12 rounded-3xl">
+                <div className="bg-dark-gray-navy p-8 lg:grid grid-cols-2 gap-12 rounded-3xl">
                     <div className="p-8 grid grid-cols-1 mb-12">
 
                         {/* Header with paragraph centered */}
