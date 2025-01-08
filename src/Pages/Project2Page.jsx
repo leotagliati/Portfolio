@@ -36,7 +36,7 @@ function Project2Page() {
             </div>
             <div className="w-full h-full relative z-1">
                 <MenuBar></MenuBar>
-                <ProjectTitle id="medieval-character-creator"></ProjectTitle>
+                <ProjectTitle id="fantasy-char-creator"></ProjectTitle>
 
 
                 {/* Page Description */}
@@ -74,8 +74,8 @@ function Project2Page() {
                     </div>
 
 
-                    <div className="p-8 flex flex-wrap justify-center items-center">
-                        <img src="img/fantasy-char-creator-image1.png" alt="" className="lg:h-2/3" />
+                    <div className="p-8 grid justify-center justify-items-center items-center">
+                        <img src="img/fantasy-char-creator-image1.png" alt="" className="" />
                         <TeamMembers members={membersList}></TeamMembers>
 
                     </div>
