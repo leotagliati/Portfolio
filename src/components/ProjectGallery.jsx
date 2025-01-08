@@ -19,7 +19,7 @@ function ProjectGallery() {
     return (
         <div className="my-3">
             <h1 className="my-6 text-5xl font-pixelify text-cream-leo underline underline-offset-8 decoration-cream-leo decoration-4 ">Projects</h1>
-            <div className="grid gap-24 grid-cols-1 md:grid-cols-2">
+            <div className="grid gap-24 sm:grid-cols-1 md:grid-cols-2">
                 {projectsMap}
             </div>
         </div>
