@@ -4,6 +4,7 @@ function ProjectGallery() {
     const projectList = [
         { name: "Sword of Obsessia", desc: "Um jogo sobre a épica jornada do cavaleiro com uma espada amaldiçoada. Atravesse a masmorra e supere seus desafios." , id:"sword-of-obsessia"},
         { name: "Medieval Character Creator", desc: "Aplicação que permite criar e personalizar personagens de forma dinâmica, com visualização em tempo real. Ideal para jogos e aplicações de role-playing, oferece diversas opções de customização para aparência, classe e vestimentas." , id:"fantasy-char-creator"},
+        { name: "Website Portfolio", desc: "Portfólio interativo em React com design responsivo, animações parallax e componentes dinâmicos. Destaca meus projetos e habilidades que desenvolvi durante a minha vida." , id:"website-portfolio"},
     ];
 
     const projectsMap = projectList.map((x, index) => (
