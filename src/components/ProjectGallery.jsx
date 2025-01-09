@@ -17,7 +17,7 @@ function ProjectGallery() {
     ));
 
     return (
-        <div className="my-3">
+        <div className="my-">
             <h1 className="my-6 text-5xl font-jetbrains text-cream-leo underline underline-offset-8 decoration-cream-leo decoration-4 ">Projects</h1>
             <div className="py-12 grid gap-24 sm:grid-cols-1 md:grid-cols-2">
                 {projectsMap}
