@@ -16,6 +16,7 @@ export default {
 
         'black-navy': '#161A30',
         'dark-gray-navy': '#31304D',
+        'gray-navy': '#2a2942',
         'light-gray-navy': '#B6BBC4',
         'clay-navy': '#F0ECE5'
 
@@ -25,8 +26,8 @@ export default {
         pixelify: ['"Pixelify Sans"', 'serif'],
         pacifico: ['"Pacifico"', 'static'],
         jetbrains: ['"JetBrains Mono"', 'serif'],
-        lato: ['"Lato"','static'],
-        inter: ['"Inter"','serif']
+        lato: ['"Lato"', 'static'],
+        inter: ['"Inter"', 'serif']
 
       }
     },

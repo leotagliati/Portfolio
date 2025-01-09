@@ -44,7 +44,7 @@ function Project3Page() {
                     <div className="p-8 grid grid-cols-1 mb-12">
 
                         {/* Header with paragraph centered */}
-                        <div className="h-96">
+                        <div className="h-fit">
                             <div className="">
                                 <div className=" pb-2 border-b-2 w-fit">
                                     <h2 className="text-4xl text-clay-navy font-bold font-jetbrains">Descrição</h2>
