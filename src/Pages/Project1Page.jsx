@@ -29,7 +29,7 @@ function Project1Page() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    const membersList = [{ name: "Leo", id: "profileImage" },
+    const membersList = [{ name: "Leo", id: "myself" },
     { name: "Thiago", id: "thiago" }, { name: "Lucas Duez", id: "lucas-duez" }, { name: "Laura Daud", id: "laura-daud" }
     ];
     return (
