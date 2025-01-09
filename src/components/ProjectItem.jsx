@@ -7,7 +7,7 @@ function ProjectItem({ projectTitle, description , projectId}) {
     return (
         <>
         <Link to={pagePath}>
-            <div className="w-full h-full">
+            <div className="w-full h-full transform transition-transform duration-300 hover:scale-105">
                 <div className="bg-purple-leo relative flex justify-center">
                     <img src={imgPath} alt="" className="sm:p-4 md:py-4" />
                     <div className="bg-purple-leo w-full md:h-52 absolute left-0 sm:bottom-2 md:bottom-0 right-0">
