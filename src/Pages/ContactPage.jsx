@@ -8,7 +8,7 @@ function ContactPage() {
             <div className="flex justify-end">
                 <div className="bg-green-400 absolute my-24 h-160 w-3/6 mx-12 z-1">
                     <div className="bg-blue-300 relative">
-                        <h1 className="text-center text-white text-6xl">Contact Me</h1>
+                        <h1 className="pt-8 text-center text-white text-6xl">Contact Me</h1>
                         <div className="p-16 mx-12 grid gap-y-12">
                             <TextField id="standard-basic" label="Nome Completo" variant="standard" className="w-full" />
                             <TextField id="standard-basic" label="Email" variant="standard" className="w-full" />
