@@ -13,7 +13,7 @@ function MenuBar() {
                     {/* TODO: Modal items for programming and art topics*/}
                     <h1 className="w-48 h-24 text-center hover:text-clay-navy  hover:bg-gray-navy duration-200 text-gray-400">Portifolio</h1>
 
-                    <Link to={'/Portfolio/contact/'}>
+                    <Link to={'/contact/'}>
                         <h1 className="w-48 h-24 text-center hover:text-clay-navy  hover:bg-gray-navy duration-200 text-gray-400">Contact</h1>
                     </Link>
                 </div>
