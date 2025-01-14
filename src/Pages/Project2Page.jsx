@@ -65,7 +65,7 @@ function Project2Page() {
                             <div className="table-row">
                                 <h2 className="mt-3 text-3xl line-clamp-3 text-clay-navy font-jetbrains">Durante o desenvolvimento, assumi diversas responsabilidades fundamentais:</h2>
                                 <ul className="list-disc pt-3 pl-6 text-2xl font-jetbrains">
-                                    <li className="text-clay-navy mt-3">Estruturei a arquitetura cliente-servidor, permitindo a comunicação eficiente entre cliente e servidor para autenticação e gerenciamento dinâmico de dados.</li>
+                                    <li className="text-clay-navy mt-3">Estruturei a arquitetura cliente-servidor, permitindo a comunicação eficiente entre ambos para autenticação multithread para várias instâncias e gerenciamento dinâmico de dados.</li>
                                     <li className="text-clay-navy mt-3">Participei da criação de elementos visuais e design, garantindo uma interface atraente e intuitiva para o usuário.</li>
                                     <li className="text-clay-navy mt-3">Modelei e implementei o banco de dados utilizando MySQL, otimizando a estrutura para suportar operações de CRUD com segurança e eficiência.</li>
                                 </ul>

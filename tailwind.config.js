@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      height:{
+        '112':'32rem',
+        '144':'36rem',
+        '160':'40rem',
+      },
       colors: {
         'cream-leo': '#fdf0d5',
         'light-purple-leo': '#C8ACD6',

@@ -11,7 +11,7 @@ function MenuBar() {
                     </Link>
 
                     {/* TODO: Modal items for programming and art topics*/}
-                    <h1 className="w-48 h-24 text-center hover:text-clay-navy  hover:bg-gray-navy duration-200 text-gray-400">Portifolio</h1>
+                    <h1 className="w-48 h-24 text-center hover:text-clay-navy  hover:bg-gray-navy duration-200 text-gray-400">Gallery</h1>
 
                     <Link to={'/Portfolio/contact/'}>
                         <h1 className="w-48 h-24 text-center hover:text-clay-navy  hover:bg-gray-navy duration-200 text-gray-400">Contact</h1>
