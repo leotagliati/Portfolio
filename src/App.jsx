@@ -6,18 +6,10 @@ import Project1Page from './Pages/Project1Page'
 import Project2Page from './Pages/Project2Page'
 import Project3Page from './Pages/Project3Page'
 import ContactPage from './Pages/ContactPage'
+import Project4Page from './Pages/Project4Page'
 function App() {
   const [count, setCount] = useState(0)
 
-
-  /* To Dos:
-      - Contact Icons (X)
-      - Header
-      - Intro 
-      - Project Gallery
-      - Footer
-  
-  */
   return (
     <>
       <div>
@@ -26,6 +18,7 @@ function App() {
           <Route path='/Portfolio/sword-of-obsessia' element={<Project1Page/>} />
           <Route path='/Portfolio/fantasy-char-creator' element={<Project2Page/>} />
           <Route path='/Portfolio/website-portfolio' element={<Project3Page/>} />
+          <Route path='/Portfolio/looming-in-the-dark/' element={<Project4Page/>} />
           <Route path='/Portfolio/contact/' element={<ContactPage/>} />
 
         </Routes>
