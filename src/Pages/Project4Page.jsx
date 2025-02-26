@@ -29,16 +29,16 @@ function Project4Page() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    const membersList = [{ name: "Leo", id: "myself" },
+    const membersList = [{ name: "Leo", id: "myself" },{name: "Edu"},{name: "Arthur"},{name: "Felipe"},{name: "Enrico"},{name: "Murillo"},{name: "Lucas"},
         
     ];
     return (
         <>
 
-            <img id="background" src="img/sword-of-obsessia-background.png" alt="" ref={background} className="w-full absolute z-0" />
+            <img id="background" src="img/looming-in-the-dark-background.png" alt="" ref={background} className="w-full absolute z-0" />
             <div className="w-full h-full relative z-1">
                 <MenuBar></MenuBar>
-                <ProjectTitle id="sword-of-obsessia" studioId="pluma-studios"></ProjectTitle>
+                <ProjectTitle id="looming-in-the-dark" studioId="nawat-games"></ProjectTitle>
 
 
                 {/* Page Description */}
@@ -53,7 +53,7 @@ function Project4Page() {
                                 </div>
                             </div>
                             <div className="mt-3 ">
-                                <h2 className="text-left text-3xl text-clay-navy font-jetbrains">Em Sword of Obsessia, você embarca em uma jornada épica como um cavaleiro com uma espada amaldiçoada. Atravessando masmorras, você enfrentará seus medos e jogará dados valendo seu destino!</h2>
+                                <h2 className="text-left text-3xl text-clay-navy font-jetbrains">Em Looming in the Dark, a astronauta Calypso e o alienígena Orion devem completar tarefas vitais em uma nave espacial enquanto evitam um monstro alienígena que tenta invadi-la. Cada ação pode atrair a criatura, tornando a sobrevivência um jogo de estratégia e furtividade.</h2>
                             </div>
                         </div>
 
@@ -67,9 +67,8 @@ function Project4Page() {
                             <div className="table-row">
                                 <h2 className="mt-3 text-3xl line-clamp-3 text-clay-navy font-jetbrains">Durante o desenvolvimento, assumi diversas responsabilidades fundamentais:</h2>
                                 <ul className="list-disc pt-3 pl-6 text-2xl font-jetbrains">
-                                    <li className="text-clay-navy mt-3">Desenvolvi sistemas de combate interativos, buffs e debuffs dinâmicos, e a masmorra, focando na otimização para uma experiência fluida.</li>
-                                    <li className="text-clay-navy mt-3">Participei da criação dos personagens e animações detalhadas, criando uma estética sombria e uma interface de usuário intuitiva e funcional.</li>
-                                    <li className="text-clay-navy mt-3">Coordenei a equipe, integrei assets e participei ativamente de testes e ajustes, garantindo uma experiência coesa e refinada.</li>
+                                    <li className="text-clay-navy mt-3">Participei da criação das mecânicas e ambientação, criando uma estética de terror impressionante.</li>
+                                    <li className="text-clay-navy mt-3">Dirigi uma equipe de 6 pessoas, podendo extrair o melhor de todos os integrantes durante o desenvolvimento.</li>
                                 </ul>
                             </div>
                         </div>
@@ -78,7 +77,7 @@ function Project4Page() {
 
                     <div className="p-8 flex flex-wrap justify-center items-center">
                         <VideoShowcase
-                            url={"https://www.youtube.com/embed/AM8DZEEDCwE"}
+                            url={"https://www.youtube.com/watch?v=jJaW8NUdUUc&list=RDRRarXcOu5lQ&index=7"}
                             width={"560"}
                             height={"315"}
                         ></VideoShowcase>
