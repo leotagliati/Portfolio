@@ -68,7 +68,7 @@ function Project4Page() {
                                 <h2 className="mt-3 text-3xl line-clamp-3 text-clay-navy font-jetbrains">Durante o desenvolvimento, assumi diversas responsabilidades fundamentais:</h2>
                                 <ul className="list-disc pt-3 pl-6 text-2xl font-jetbrains">
                                     <li className="text-clay-navy mt-3">Participei da criação das mecânicas e ambientação, criando uma estética de terror impressionante.</li>
-                                    <li className="text-clay-navy mt-3">Dirigi uma equipe de 6 pessoas, podendo extrair o melhor de todos os integrantes durante o desenvolvimento.</li>
+                                    <li className="text-clay-navy mt-3">Codirigi uma equipe de 6 pessoas, podendo extrair o melhor de todos os integrantes durante o desenvolvimento.</li>
                                 </ul>
                             </div>
                         </div>
